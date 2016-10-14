@@ -1,0 +1,23 @@
+<template name="mainLayout">
+
+
+<div class="container">
+    <header class="navbar navbar-default" role="navigation">
+      <div class="navbar-header">
+      <a class="navbar-brand" href="{{pathFor'home'}}">ACG_Test</a>
+      </div>
+    </header>
+
+
+    <div id="main">
+    {{> navigation}}
+    {{> yield}}
+    </div>
+
+
+  </div>
+ <hr />
+    <p>Copyright &copy; Demo 2016.</p>
+
+
+</template>
