@@ -1,23 +1,17 @@
 <template name="mainLayout">
-
-
-<div >
+  <div >
     <header >
       <div>
-      <a href="{{pathFor'home'}}">ACG_Test</a>
+        <a href="{{pathFor'home'}}">ACG_Test</a>
       </div>
     </header>
 
-
     <div>
-    {{> navigation}}
-    {{> yield}}
+      {{> navigation}}
+      {{> yield}}
     </div>
 
-
   </div>
- <hr />
-    <p>Copyright &copy; Demo 2016.</p>
-
-
+  <hr />
+  <p>Copyright &copy; Demo 2016.</p>
 </template>
